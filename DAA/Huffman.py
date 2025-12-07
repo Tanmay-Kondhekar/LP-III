@@ -53,17 +53,3 @@ for ch, f in freq.items():
 
 encoded = "".join(huffman_codes[ch] for ch in text)
 print("\nEncoded string:", encoded)
-
-#_____________________________________________________________________________________________________
-#input-output
-"""
-Enter a string to encode: neha
-Character | Frequency | Huffman Code (4-bit)
---------------------------------------------
-    n      |     1      |     0001
-    e      |     1      |     0010
-    h      |     1      |     0011
-    a      |     1      |     0100
-
-Encoded string: 0001001000110100
-"""

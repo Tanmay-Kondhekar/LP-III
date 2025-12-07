@@ -1,4 +1,3 @@
-
 steps = 0
 
 def fib_recursive(n):

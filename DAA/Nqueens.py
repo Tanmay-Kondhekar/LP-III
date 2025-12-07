@@ -23,7 +23,7 @@ def print_board(board, n):
     print()
 
 def n_queens(n):
-    board = [-1] * n
+    board = [-1] * n    
     solutions = []
     solve_n_queens(board, 0, n, solutions)
 

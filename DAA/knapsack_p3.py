@@ -58,30 +58,3 @@ for item in chosen_items:
 print("------------------------------------------------------------")
 print(f"\nKnapsack Capacity Used: {used_capacity:.0f} / {sum(weights):.0f}")
 print(f"Maximum value in Knapsack = {max_value:.2f}")
-
-
-"""
-
-INPUT-OUTPUT:-
-
-Enter number of items:  3
-Enter value of item 1:  24
-Enter weight of item 1:  15
-Enter value of item 2:  15
-Enter weight of item 2:  10
-Enter value of item 3:  25
-Enter weight of item 3:  18
-Enter knapsack capacity:  20
-
-Items chosen:
-
-------------------------------------------------------------
-Item	Value	Weight	Taken
-1	24	15	1.00
-2	15	10	0.50
-------------------------------------------------------------
-
-Knapsack Capacity Used: 20 / 43
-Maximum value in Knapsack = 31.50
-
-"""
